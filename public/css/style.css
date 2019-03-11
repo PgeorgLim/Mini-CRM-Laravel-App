@@ -1,0 +1,41 @@
+.main-content{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.my-nav li{
+    margin-left: 20px;
+}
+
+.my-nav li:first-child{
+    margin-left: 0px;
+}
+
+.nav-link{ transition: all .2s }
+.nav-link:hover{
+    background-color: #3490dc !important;
+    color: white !important;
+}
+
+.heading-primary h1{
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.heading-secondary{
+    padding: 20px 0;
+}
+
+.search-input{ width: 250px !important; }
+
+/*.alert-danger > ul { margin-bottom: 0rem !important; }*/
+.error-alert {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: .4rem;
+}
+
+.fas{
+    color: #3490dc !important;
+    font-size: 1.26rem;
+}
